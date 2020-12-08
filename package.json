@@ -1,0 +1,38 @@
+{
+  "name": "gatsby-starter-terminal-alicetaria",
+  "private": true,
+  "description": "A simple starter using gatsby-theme-terminal",
+  "version": "2020.12.06",
+  "author": "Alicetaria",
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.21",
+    "@mdx-js/react": "^1.6.21",
+    "@chuan-khuna/gatsby-theme-terminal": "^20201207.22.32",
+    "@theme-ui/prism": "^0.3.0",
+    "gatsby": "^2.25.4",
+    "gatsby-plugin-mdx": "^1.3.1",
+    "gatsby-source-filesystem": "^2.4.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not dead",
+    "IE 11"
+  ]
+}
